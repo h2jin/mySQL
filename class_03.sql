@@ -49,3 +49,6 @@ insert into buyTbl values('이순신', '책', 10, 3);
 
 --
 select * from buyTbl;
+
+-- drop table usertbl;
+-- drop table buytbl;

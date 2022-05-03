@@ -12,6 +12,8 @@ create table userTbl(
     userId char(8) not null
 );
 
+drop table usertbl;
+
 -- 문제 5 (간단한 테이블 생성 필드 개 이상 primary key 지정)
 create table userTbl_1(
 	userId char(8) not null,
@@ -20,5 +22,7 @@ create table userTbl_1(
     userPhoneNum int not null,
     primary key(userId)
 );
+
+drop table usertbl_1;
 
 
