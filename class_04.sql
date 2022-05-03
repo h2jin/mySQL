@@ -13,7 +13,7 @@ on usertbl.userName = buytbl.userName;
 -- inner join 2
 select a.userName, a.addr, a.mobile, b.prodName, b.price, b.amount
 from usertbl as a -- 별칭이라는 뜻 --> a = usertbl
-inner join buytbl as b
+inner join buytbl as b 
 on  a.userName = b.userName;
 
 -- inner join 연습 3
