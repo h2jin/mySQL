@@ -25,7 +25,7 @@ select *
 from usertbl as u -- 보통 별칭 앞글자를 땀
 left join buytbl as b
 on u.userName = b.userName; 
--- > 구매티이블에는 야쓰오의 정보가 없음. null 값 나옴. innerJoin에는 야쓰오 전혀 나오지 않음. 그래서 교집합
+-- > 구매테이블에는 야쓰오의 정보가 없음. null 값 나옴. innerJoin에는 야쓰오 전혀 나오지 않음. 그래서 교집합
 -- 상황에 따라서 맞춰서 쓰는 것.
 
 -- usertbl에 고객 등록
