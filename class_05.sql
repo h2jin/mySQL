@@ -35,7 +35,7 @@ select round(134.523, 1); -- 뒤에 숫자는 소수점자리를 지정
 -- 내림(버림) 처리
 select floor(25.81);
 
-select ceil(round(10 - 5) + 5);
+select ceil(round(10.8 - 5) + 5.2);
 
 -- max 값 
 select max(price)

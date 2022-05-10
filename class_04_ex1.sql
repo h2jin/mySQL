@@ -1,9 +1,9 @@
 -- mysql function
 
 -- MySQL String FUnction
-select ascii('b');
+select ascii('B');
 -- 아스키 코드 찍어내는 함수
-select ascii('a');
+select ascii('A');
 
 select char_length('MY SQL TEST') as 문자길이;
 -- > 공백도 문자 수에 포함됨.
@@ -15,7 +15,7 @@ select concat_ws('->', 'boot', 'class' '100%') as class_name;
 select find_in_set('q', 's,q,l');
 -- q문자열 어디에 존재하는 지 알 수있다.
 
-select fomat(250500.5632, 0); 
+select format(250500.5632, 0); 
 -- 숫자형식은 "#.##.##.##"(소수점 2자리 반올림)으로 지정한다.
 
 select lcase('HELLO JAVA');

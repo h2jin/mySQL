@@ -52,3 +52,6 @@ select * from buyTbl;
 
 -- drop table usertbl;
 -- drop table buytbl;
+
+-- 구매 테이블 생성할 때 외래키에대한 제약을 생성했기 때문이다.
+insert into buytbl values('티모','컴퓨터', 100 ,1 ); -- usertbl에 티모라는 고객이 없음

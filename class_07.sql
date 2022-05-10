@@ -1,4 +1,4 @@
-use shopdb_1;
+use shopdb;
 -- AND 와 OR
 
 select * from membertbl;
@@ -8,7 +8,7 @@ insert into membertbl values('jsa','김주한','부산시 진구');
 -- 이름 홍길동, 주소가 부산시 진구
 select *
 from membertbl
-where memberName = '홍길동'
+where memberName = '김주한'
 and memberAddress = '부산시 진구';
 
 -- 주소가 부산시 진구 or 경기도 부천시
@@ -52,7 +52,7 @@ rename table membercart to myCart; -- 2
 insert into shopcart values(1, 1, '청바지');
 
 -- primary key를 입력하지 않았는데 왜 오류가 나지 않았나?
--- 기본 전략 suto_increment() 설정해놔서 오류나지 않음. 
+-- 기본 전략 auto_increment() 설정해놔서 오류나지 않음. 
 insert into shopcart(amount, productName) values(2, '운동화');
 
 insert into shopcart(amount, productName) values(12, '잠바');

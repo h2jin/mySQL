@@ -9,11 +9,11 @@ create database shopdb_1;
 -- drop database shopdb_1; -- 조심해서 사용해야 함.
 
 -- 테이블을 생성하는 구문
-create table 테이블명(
-	필드명 필드타입, 
-    필드명 필드타입, 
-    primary key(필드명 위에서 작성한 필드명 중 하나여야함)
-);
+-- create table 테이블명(
+-- 	필드명 필드타입, 
+--     필드명 필드타입, 
+--     primary key(필드명 위에서 작성한 필드명 중 하나여야함)
+-- );
 -- 테이블 삭제 방법
 -- drop table membertbl_1;
 
