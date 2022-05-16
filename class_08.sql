@@ -9,6 +9,8 @@ create table shop_db.product(
     company varchar(30)
 );
 
+desc product;
+
 -- index 책의 색인과 같다. fullscan을 하면 시간이 오래 걸림. primary key나 index를 지정해주면 데이터를 더욱 빠르게 찾을 수 있다.
 -- index : create index(UNIQUE INDEX)
 create index idx_product_name
