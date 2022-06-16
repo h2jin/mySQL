@@ -21,3 +21,17 @@ create database blog;
 
 
 
+insert 
+    into
+        User
+        (createDate, email, password, username) 
+    values
+        (?, ?, ?, ?);
+        
+select * from user;
+
+drop table reply;
+
+
+
+
