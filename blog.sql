@@ -18,7 +18,8 @@ select user, host from user;
 
 -- 데이터 베이스 생성
 create database blog;
-
+-- 
+use blog;
 
 
 insert 
@@ -31,6 +32,10 @@ insert
 select * from user;
 
 drop table reply;
+
+-- 연습용
+use blog_1;
+select * from user;
 
 
 

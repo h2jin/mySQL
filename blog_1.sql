@@ -43,6 +43,5 @@ create table User (
 
 -- create user 'ten1'@'localhost' identified by '1q2w3e4r5t!';
 
-create database movie;
-use movie;
+use movie_1;
 
